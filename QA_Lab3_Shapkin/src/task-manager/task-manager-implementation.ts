@@ -3,6 +3,12 @@ import { Vault } from "../vault";
 import { TaskManager } from "./task-manager-interface";
 import { TaskNotFoundError } from "./task-not-found-error";
 
+/**
+ * Класс реализующий интерфейс `TaskManager`
+ * @implements TaskManager
+ * @class TaskManagerImplementation
+ * @see [TaskManager](/docs/interfaces/task_manager_task_manager_interface.TaskManager.html)
+ */
 class TaskManagerImplementation implements TaskManager {
   private vault: Vault<TaskDto[]>;
 

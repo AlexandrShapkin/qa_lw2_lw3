@@ -6,6 +6,11 @@
 export function Singletone<T>() {
   /*
    *  Такая реализация позволяет использовать дженерики для статических полей
+   *  Создать статическое поле дженерик типа не получается даже приведением Object к шаблонному типу
+   */
+  /**
+   * Шаблонный класс, реализующий паттерн singletone
+   * @property {T} instance
    */
   let singletone = class Singletone {
     static instance: T = null;

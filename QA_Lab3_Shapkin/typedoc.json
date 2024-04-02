@@ -1,0 +1,7 @@
+{
+  "includes": "./src",
+  "name": "TypeDoc Pages Plugin",
+  "out": "docs",
+  "plugin": ["typedoc-plugin-mermaid", "typedoc-plugin-katex"],
+  "media": "./media"
+}
